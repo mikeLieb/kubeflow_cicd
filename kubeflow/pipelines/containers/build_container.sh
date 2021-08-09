@@ -16,7 +16,7 @@
 
 
 
-CONTAINER_NAME=babyweight-pipeline-$(basename $(pwd))
+CONTAINER_NAME=base-$(basename $(pwd))
 DIR_IN_REPO=$(pwd | sed 's%training-data-analyst/% %g' | awk '{print $2}')
 REPO_DIR=$(pwd | sed 's%training-data-analyst/%training-data-analyst %g' | awk '{print $1}')
 
