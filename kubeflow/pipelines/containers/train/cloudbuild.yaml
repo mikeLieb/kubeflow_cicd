@@ -1,6 +1,6 @@
 steps:
     - name: 'gcr.io/cloud-builders/docker'
       dir:  ''   # remove-for-manual
-      args: [ 'build', '-t', 'gcr.io/my-project-1496348538272/babyweight-pipeline-train:latest', '.' ]
+      args: [ 'build', '-t', 'gcr.io/my-project-1496348538272/base-train:latest', '.' ]
 images:
-    - 'gcr.io/my-project-1496348538272/babyweight-pipeline-train:latest'
+    - 'gcr.io/my-project-1496348538272/base-train:latest'
